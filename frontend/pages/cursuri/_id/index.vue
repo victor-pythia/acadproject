@@ -84,7 +84,7 @@ export default {
                 playbackRates: [0.7, 1.0, 1.5, 2.0],
                 sources: [{
                     type: "video/mp4",
-                    src: `http://localhost:5002/curs/video/${this.curs.linkDemo}`
+                    src: `http://eduboard.pythia.social/stream/curs/video/${this.curs.linkDemo}`
                 }],
             }
             this.chapters = this.curs.chapters
@@ -104,9 +104,9 @@ export default {
             this.chapters.push(chapter);
         },
         viewChapter(chapter){
-            console.log("ma uit la: ", chapter, `http://localhost:5002/curs/video/${chapter.linkVideo}`);
+            console.log("ma uit la: ", chapter, `http://eduboard.pythia.social/stream/curs/video/${chapter.linkVideo}`);
             this.chapterName = chapter.nume
-            this.player.src({type: 'video/mp4', src: `http://localhost:5002/curs/video/${chapter.linkVideo}`})
+            this.player.src({type: 'video/mp4', src: `http://eduboard.pythia.social/stream/curs/video/${chapter.linkVideo}`})
         }
 
     }
