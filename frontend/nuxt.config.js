@@ -24,7 +24,7 @@ export default {
   ],
   axios: {
     // proxyHeaders: false
-    baseURL: 'eduboard.pythia.social/api'
+    baseURL: 'http://eduboard.pythia.social/api'
   },
   auth: {
     strategies: {
