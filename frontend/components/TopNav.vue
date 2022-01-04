@@ -12,11 +12,8 @@
             <b-navbar-item href="">
                 Acasa
             </b-navbar-item>
-            <b-navbar-item href="">
-                Cursuri
-            </b-navbar-item>
-            <b-navbar-item href="">
-                Teste
+            <b-navbar-item href="/despre">
+                Despre proiect
             </b-navbar-item>
             <b-navbar-item href="/admin">
                 Admin Zone
