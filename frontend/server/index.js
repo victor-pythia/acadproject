@@ -29,13 +29,13 @@ const userCourseRouter = require('./routes/user_courses');
 const courseChapterRouter = require('./routes/course_chapters');
 const chapterRouter = require('./routes/chapter');
 
-app.use('/auth', authRouter);
-app.use('/categorii/', categoriiRouter);
-app.use('/user/', userRouter);
-app.use('/curs', cursRouter);
-app.use('/user_has_courses', userCourseRouter)
-app.use('/course_has_chapters', courseChapterRouter)
-app.use('/capitol', chapterRouter)
+app.use('/api/auth', authRouter);
+app.use('/api/categorii/', categoriiRouter);
+app.use('/api/user/', userRouter);
+app.use('/api/curs', cursRouter);
+app.use('/api/user_has_courses', userCourseRouter)
+app.use('/api/course_has_chapters', courseChapterRouter)
+app.use('/api/capitol', chapterRouter)
 
 
 
