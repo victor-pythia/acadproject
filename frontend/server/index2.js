@@ -33,7 +33,7 @@ app.get('/test', (req, res)=>{
     console.log('da');
 })
 
-app.get('/stream/curs/video/:nume', (req, res) => {
+app.get('/curs/video/:nume', (req, res) => {
     const path = '../static/' + req.params.nume;
     console.log(path);
     const stat = fs.statSync(path)

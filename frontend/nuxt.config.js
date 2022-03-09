@@ -24,14 +24,14 @@ export default {
   ],
   axios: {
     // proxyHeaders: false
-    baseURL: 'http://eduboard.pythia.social/api/'
+    baseURL: 'http://192.168.100.2/'
   },
   auth: {
     strategies: {
       local: {
         endpoints: {
-          login: { url: '/api/auth/login', method: 'post', propertyName: 'token' },
-          user: { url: '/api/auth/me', method: 'get', propertyName: 'user' },
+          login: { url: '/auth/login', method: 'post', propertyName: 'token' },
+          user: { url: '/auth/me', method: 'get', propertyName: 'user' },
           logout: false
         },
         tokenRequired: true,
